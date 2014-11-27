@@ -24,22 +24,9 @@ class FactBook {
         "Whales and dolphins can't taste anything other than salt."
     ]
     var lastGeneratedNumber = -1
-
-    /* Generates a random number. This function guarantees that the new generated number is not equal to the last generated number to avoid getting the same fact. */
-    func generateNumber() -> Int {
-        var unsignedArrayCount = UInt32(factsArray.count)
-        var unsignedRandomNumber = arc4random_uniform(unsignedArrayCount)
-        var randomNumber = Int(unsignedRandomNumber)
-        
-        if(randomNumber == lastGeneratedNumber) {
-            return generateNumber()
-        } else {
-            lastGeneratedNumber = randomNumber
-            return randomNumber
-        }
-    }
     
     func randomFact() -> String {
-        return factsArray[generateNumber()]
+        lastGeneratedNumber = generateNumber(UInt32(factsArray.count), lastGeneratedNumber)
+        return factsArray[lastGeneratedNumber]
     }
 }
