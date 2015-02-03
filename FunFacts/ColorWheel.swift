@@ -22,7 +22,7 @@ class ColorWheel {
     var lastGeneratedNumber = -1
         
     func randomColor() -> UIColor {
-        lastGeneratedNumber = generateNumber(UInt32(colorsArray.count), lastGeneratedNumber)
+        lastGeneratedNumber = Utils.generateNumber(UInt32(colorsArray.count), lastGeneratedNumber: lastGeneratedNumber)
         return colorsArray[lastGeneratedNumber]
     }
 }

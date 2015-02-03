@@ -15,7 +15,7 @@
 		ACA65B311A257CC3006895C7 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA65B301A257CC3006895C7 /* FunFactsTests.swift */; };
 		ACA65B3B1A26085A006895C7 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA65B3A1A26085A006895C7 /* FactBook.swift */; };
 		ACD626801A264E31005F0164 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6267F1A264E31005F0164 /* ColorWheel.swift */; };
-		ACD626821A26B9D8005F0164 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD626811A26B9D8005F0164 /* utils.swift */; };
+		ACD626821A26B9D8005F0164 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD626811A26B9D8005F0164 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		ACA65B301A257CC3006895C7 /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
 		ACA65B3A1A26085A006895C7 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 		ACD6267F1A264E31005F0164 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
-		ACD626811A26B9D8005F0164 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		ACD626811A26B9D8005F0164 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 				ACA65B1C1A257CC3006895C7 /* ViewController.swift */,
 				ACA65B3A1A26085A006895C7 /* FactBook.swift */,
 				ACD6267F1A264E31005F0164 /* ColorWheel.swift */,
-				ACD626811A26B9D8005F0164 /* utils.swift */,
+				ACD626811A26B9D8005F0164 /* Utils.swift */,
 				ACA65B1E1A257CC3006895C7 /* Main.storyboard */,
 				ACA65B211A257CC3006895C7 /* Images.xcassets */,
 				ACA65B231A257CC3006895C7 /* LaunchScreen.xib */,
@@ -221,7 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD626821A26B9D8005F0164 /* utils.swift in Sources */,
+				ACD626821A26B9D8005F0164 /* Utils.swift in Sources */,
 				ACA65B3B1A26085A006895C7 /* FactBook.swift in Sources */,
 				ACA65B1D1A257CC3006895C7 /* ViewController.swift in Sources */,
 				ACA65B1B1A257CC3006895C7 /* AppDelegate.swift in Sources */,

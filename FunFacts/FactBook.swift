@@ -26,7 +26,7 @@ class FactBook {
     var lastGeneratedNumber = -1
     
     func randomFact() -> String {
-        lastGeneratedNumber = generateNumber(UInt32(factsArray.count), lastGeneratedNumber)
+        lastGeneratedNumber = Utils.generateNumber(UInt32(factsArray.count), lastGeneratedNumber: lastGeneratedNumber)
         return factsArray[lastGeneratedNumber]
     }
 }
